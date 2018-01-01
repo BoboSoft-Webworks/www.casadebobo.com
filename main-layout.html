@@ -1,0 +1,83 @@
+<!-- 
+##  AUTHOR      :   Robert James Patterson
+##  DATE        :   10/27/2017
+##  FILENAME    :   http://www.casadebobo.com/main_layout.html
+##  SYNOPSIS    :   A static website built on AWS services.
+##
+-->
+<!DOCTYPE html>
+<html ng-app="" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AWS - Casa de Bobo</title>
+
+    <link rel="stylesheet" href="css/casastrap.css">
+    
+    <link rel="stylesheet" href="css/casadebobo.css">
+    
+    </head>
+    <body>
+    
+        <div id="casa-navbar" ng-include="'inc/casa-navbar.html'">
+        </div>
+
+        <div>
+            &nbsp;<br/>
+        </div>
+
+        <div class="page-header">
+            <h1 class="center-text casa-header">Casa de Bobo</h1>
+        </div>
+
+        <!-- PAGE CONTENT GOES HERE -->
+        <div id="tours">
+            <h1>Guided Tours</h1>
+            <ul>
+              <li class="usa tour" data-discount="299">
+                <h2>New York, New York</h2>
+                <span class="details">$1,899 for 7 nights</span>
+                <button class="book">Book Now</button>
+              </li>
+              <li class="europe tour" data-discount="176">
+                <h2>Paris, France</h2>
+                <span class="details">$2,299 for 7 nights</span>
+                <button class="book">Book Now</button>
+              </li>
+              <li class="asia tour" data-discount="349">
+                <h2>Tokyo, Japan</h2>
+                <span class="details">$3,799 for 7 nights</span>
+                <button class="book">Book Now</button>
+              </li>
+            </ul>
+          </div>
+
+        <!-- Begin Footer -->
+            <div id="footer">
+                | &reg;2017 BoboSoft WebWorks | What would you like to see built today? 
+                | contact: <a href="mailto:guajiropa@hotmail.com">guajiropa@hotmail.com</a> |
+            </div>    
+        <!-- End Footer -->        
+
+    </div>
+
+    <!-- Load Script Libraries -->
+
+    <script src="src/jquery-3.2.1.min.js">
+    </script>
+    
+    <!-- JQuery 3.2.1 support -->
+    <script src="src/bootstrap.min.js">
+    </script>
+    
+    <!-- AngularJS 1.6.4 support -->
+    <script src="src/angular.min.js">
+    </script> 
+
+    <script src="src/cdbActive.js">
+    </script>
+
+</body>
+</html>
+

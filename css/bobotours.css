@@ -1,0 +1,148 @@
+/*
+##  AUTHOR      :   Robert James Patterson
+##  DATE        :   10/22/2017
+##  FILENAME    :   aws-website-casadebobo-yrgqb.s3-website-us-east-1.amazonaws.com/css/casadebobo.css
+##  SYNOPSIS    :   A static website built on AWS services.
+##
+*/
+
+/* Embedded fonts used in this site, stored in <sitename>/css/fonts */
+@font-face {
+    font-family: 'pypatsregular';
+    src: url('fonts/pypats-webfont.woff2') format('woff2'),
+         url('fonts/pypats-webfont.woff') format('woff'),
+         url('fonts/pypats-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cartoon_freakregular';
+    src: url('fonts/cartoonfreak.woff2') format('woff2'),
+         url('fonts/cartoonfreak.woff') format('woff'),
+         url('fonts/cartoonfreak.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'waltographregular';
+    src: url('fonts/waltograph42-webfont.woff2') format('woff2'),
+         url('fonts/waltograph42-webfont.woff') format('woff'),
+         url('fonts/waltograph42-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'kentuckyfriedfontregular';
+    src: url('fonts/kentuckyfriedfont-webfont.woff2') format('woff2'),
+         url('fonts/kentuckyfriedfont-webfont.woff') format('woff'),
+         url('fonts/kentuckyfriedfont-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Define the page */
+html, body{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:  rgb(179, 154, 154);
+}
+
+#top{
+    position: absolute;
+}
+
+#footer-spacer{
+    height: 36px;
+}
+
+#footer{
+    margin: auto;
+    border-top: 1px solid #000;
+    height: 35px;
+    text-align: center;
+}
+
+/* Mod on the Bootstrap Active nav-pills */
+.nav-pills>li.active>a,.nav-pills>li.active>a:focus,.nav-pills>li.active>a:hover{
+    color:rgb(202, 212, 57);
+    background-color:#796b1e;
+}
+
+/* Mod on the Bootstrap Active nav-pills */
+.nav-pills>li.active>a,.nav-pills>li.active>a:focus,.nav-pills>li.active>a:hover{
+    color:rgb(202, 212, 57);
+    background-color:#796b1e
+}
+
+#tours ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#tours ul li{
+    display: inline;
+}
+
+.tour li{
+    display: inline;
+}
+
+.kentuky-fried-text{
+    font-family: "kentuckyfriedfontregular", Arial, Helvetica, sans-serif;
+   /* font-size: 18pt; */
+    font-weight: normal;
+    font-style: normal;  
+
+}
+
+.walt42-text{
+    font-family: "waltographregular", Arial, Helvetica, sans-serif;
+   /* font-size: 22pt; */
+    font-weight: normal;
+    font-style: normal;    
+}
+
+.casa-header{
+    font-family: "cartoon_freakregular", Arial, Helvetica, sans-serif;
+    font-size: 72pt;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(2, 25, 43);
+}
+
+.casa-header:hover{
+    font-size: 80pt;    
+}
+
+.cartoon_freak-text{
+    font-family: "cartoon_freakregular", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.pypats-text{
+    font-family: "pypatsregular", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-size-19{
+    font-size: 19pt;
+}
+
+.center{
+    margin: auto;
+}
+
+.center-text{
+    text-align: center;     
+}
